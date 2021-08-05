@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* common */
+#container .section-wrap {padding-top: 80px; }
+
+/* section2 */
+.section2 .pics {height: 400px;}
+
+/* section3 */
+.section3 .discs {max-height: 420px;}
+.section3 .swiper-slide > a {width: 70%;}
+.section3 .swiper-slide a img:nth-child(1) {right: 0;}
+.section3 .swiper-slide .desc dl {
+	float: none;
+	width: 100%;
+}
+.section3 .swiper-slide .desc dl dt {font-size: 1.4rem;}
+.section3 .swiper-slide .desc dl dd {font-size: 1.4rem;}
+.section3 .swiper-slide .desc dl dt:before {width: 3px; height: 3px;}

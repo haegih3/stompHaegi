@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/* section4 */
+.section4 .swiper-container {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.section4 .swiper-slide {margin: 0;}
+
+/* footer */
+#footer footer {padding: 5%;}
+#footer .f-content {width: 50%;}
+#footer .f-content .pc-hdd {display: block;}
+#footer .f-info span:nth-child(2):after {display: none;}

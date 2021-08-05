@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+
+/* common */
+.section {height: auto;}
+#container .section-wrap {padding-top: 100px; padding-bottom: 8%;}
+
+/* container bg */
+.container-bg {display: none;}
+
+/* section1 */
+#container .section1 .section-wrap {padding-top: 150px; padding-bottom: 0;}
+.section1 {height: 100vh;}
+/*.section1 .section-wrap {background-position: right bottom 30%;}*/
+
+/* section2 */
+.section2 .section2-bg {top: -50px;}
+.section2 .fLeft {width: 30%; padding-left: 5%;}
+.section2 .text {font-size: 2.3rem;}
+.section2 .btn-area {margin: 0;}
+
+/* section2 swiper */
+.section2 .pics {width: 60%; height: 300px;}
+.section2 .pics .pic-wrap a.front {
+  transform: scale(1.2) translateX(-15px);
+}
+.section2 .indicator {width: 60%;}
+
+/* section3 */
+.section3:before {width: 100%;}
+.section3 .discs {padding: 0 3%;}
+.section3 .swiper-slide {padding: 0;}
+.section3 .swiper-slide a {margin-left: 4em;}
+.section3 .swiper-slide .desc {padding: 0;}
+.section3 .swiper-slide .desc p {height: 80px;}
+.section3 .swiper-slide .desc dl dt,
+.section3 .swiper-slide .desc dl dd {letter-spacing: -1px;}
+
+/* section4 */
+#container .section4 .section-wrap {padding-bottom: 0;}
+
+/* .snb */
+.snb {display: none;}
+
+/* footer */
+#footer footer {padding: 5%;}

@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+header {height: 95px;}
+.gnb {display: none;}
+
+/* common */
+.section {height: auto;}
+#container .section-wrap {padding-top: 100px; padding-bottom: 8%;}
+.section .text {font-size: 1.4rem; margin-bottom: 2em;}
+.section .sect-tit {
+	font-size: 4rem;
+	letter-spacing: 1px;
+	margin-bottom: 0.3em;
+}
+.section .btn-area {margin-bottom: 40px;}
+.section .btn-area > button {
+  width: 135px;
+  font-size: 1.4rem;
+}
+
+/* header */
+.top-area .btn-store {display: none;}
+.tnb-area a.mo-hdd {display: none;}
+.top-area .tnb-area {text-align: right;}
+.tnb li a {font-size: 4rem;}
+
+.tnb-group.full .btn-tnb {
+  right: 10%;
+}
+
+/* container bg */
+.container-bg {display: none;}
+
+/* section1 */
+.section1 {
+  height: auto;
+  padding: 0 4%;
+  background-image: url(../img/visual_bg_m.jpg);
+}
+#container .section1 .section-wrap {
+  padding: 200px 5% 70%;
+}
+.section1 .section-wrap {
+  background-position: center bottom 15%;
+  background-size: 100%;
+}
+.section1 .sect-tit {
+  margin-bottom: 0;
+  padding: 10px 0;
+  height: 80px;
+  background-position: center top;
+  background-size: 40%;
+}
+.section1 .sect-tit:after {display: none;}
+.section1 .sect-tit span {
+  padding: 0;
+  font-size: 5.5rem;
+}
+.section1 .sns-list {display: none;}
+
+/* section2 */
+.section2 .section2-bg {
+	top: 0;
+	font-size: 12rem;
+}
+.section2 .fLeft {
+  float: none;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 3em;
+  text-align: center;
+}
+.section2 .pics {
+  position: relative;
+  width: 80%;
+  height: 630px;
+	margin: 0 10%;
+}
+.section2 .pics .pic-wrap a {
+  width: 60%;
+  margin-top: 9%;
+}
+.section2 .pics .pic-wrap figure {margin-bottom: 1em;}
+.section2 .pics .pic-wrap span.pc-hdd {
+	display: block;
+	width: 80%;
+	padding: 0 10%;
+	font-size: 1.3rem;
+	letter-spacing: -1px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.section2 .indicator {display: none;}
+
+/* section3 */
+.section3:before {width: 100%;}
+.section3 .tab-menu {width: 315px;
+  margin: 0 auto 2em;
+}
+.section3 .tab-menu li {
+  padding: 0 0.4em;
+}
+.section3 .tab-menu li a i {
+  margin-bottom: 1em;
+  width: 50px; height: 50px;
+  border-radius: 100%;
+  background: #777;
+  transition: all 0.5s;
+}
+.section3 .tab-menu li a i:after {background-size: 50%;}
+.section3 .tab-menu li a span {
+  font-size: 1.3rem;
+}
+.section3 .discs {
+	padding: 0 3%;
+	height: 490px;
+}
+.section3 .swiper-slide {position: relative; width: 100%;}
+.section3 .swiper-slide > a {
+/*  position: static;*/
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  float: none;
+  display: block;
+  margin: 0;
+  width: 70%;
+  max-height: 430px;
+  min-height: 320px;
+  box-sizing: border-box;
+}
+.section3 .swiper-slide .desc {
+  position: absolute;
+	top: calc((100vw - 50px)*0.5);
+  left: 50%;
+  transform: translateX(-50%);
+  float: none;
+  width: 70%;
+}
+.section3 .swiper-slide .desc dl {
+  width: 50%;
+  float: left;
+  margin-bottom: 0.5em;
+}
+.section3 .swiper-slide .desc dl dt {
+	width: 70px;
+	font-size: 1.5rem;
+}
+.section3 .swiper-slide .desc dl dd {
+	font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+.section3 .swiper-slide .desc p {display: none;}
+.section3 .swiper-slide .desc .btn-area {
+	padding-top: 2em;
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+
+/* section4 */
+#container .section4 .section-wrap {padding-bottom: 0;}
+.section4 .swiper-container {
+	padding: 0 10%;
+}
+.section4 .swiper-slide {
+	width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+}
+.sns-content p {
+	height: 48px;
+}
+.sns-content figure {
+	max-height: 420px;
+	height: 100%;
+	min-height: 260px;
+}
+
+/* .snb */
+.snb {display: none;}
+
+/* footer */
+#footer footer {padding: 20% 5%;}
+#footer h1 {
+	float: none;
+	width: 100%;
+	margin-bottom: 1.5em;
+}
+#footer .fnb a:last-child {padding-right: 0; margin-right: 0;}
+#footer .f-content {
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+#footer .f-content .pc-hdd {display: block;}
+#footer .f-info {font-size: 1.3rem;margin-bottom: 1.5em;}
+#footer .f-info span:last-child {padding-right: 0; margin-right: 0;}
+#footer .f-info span:nth-child(2):after {display: none;}
+#footer .copyright {letter-spacing: 1px;}
+#footer .sns-list {
+	float: none;
+	padding-top: 2em;
+	width: 100%;
+	text-align: center;
+}
